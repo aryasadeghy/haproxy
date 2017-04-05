@@ -1,0 +1,19 @@
+{
+  "name": "haproxy-log-node",
+  "version": "1.0.0",
+  "description": "sending and tailing log of haproxy through nodejs",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "harproxy",
+    "log",
+    "nodejs"
+  ],
+  "author": "aryasadeghy",
+  "license": "MIT",
+  "dependencies": {
+    "tail": "^1.2.1"
+  }
+}

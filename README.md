@@ -1,29 +1,48 @@
-# README #
+# Haproxy installation and config 
 
-This README would normally document whatever steps are necessary to get your application up and running.
+first of all you just need to install haproxy from repo with this command 
 
-### What is this repository for? ###
+note : i'm using ubuntu 16.10
 
-* Quick summary
-* Version
-* [Learn Markdown](https://bitbucket.org/tutorials/markdowndemo)
+```
+sudo apt install haproxy
 
-### How do I get set up? ###
+```
 
-* Summary of set up
-* Configuration
-* Dependencies
-* Database configuration
-* How to run tests
-* Deployment instructions
+after you install the haproxy , it's the time to config it .
 
-### Contribution guidelines ###
+#configuration Part 
 
-* Writing tests
-* Code review
-* Other guidelines
+so easy in copy the /etc folder in th files folder into / just like below 
 
-### Who do I talk to? ###
+```
+sudo cp -a  /etc   /
 
-* Repo owner or admin
-* Other community or team contact
+```
+
+ok it's done you just need to restart the services 
+
+```
+sudo service rsyslog restart && sudo service haproxy restart 
+
+
+``
+
+that's it you're done of all about haproxy  and if you want to change the configuration you cant editr this file 
+```
+/etc/haproxy/haproxy.cfg 
+```
+
+# using our sendlog app 
+i wrote this simple app to find out which server are up or down 
+
+for runnig app go to App folder and run the bellow command 
+
+```
+node server.js
+```
+you can see the changes if one of your servers goes down or getting started .
+
+
+
+
