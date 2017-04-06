@@ -26,9 +26,9 @@ ok it's done you just need to restart the services
 sudo service rsyslog restart && sudo service haproxy restart 
 
 
-``
+```
 
-that's it you're done of all about haproxy  and if you want to change the configuration you cant editr this file 
+that's it you're done of all about haproxy  and if you want to change the configuration you can edit this file 
 ```
 /etc/haproxy/haproxy.cfg 
 ```
