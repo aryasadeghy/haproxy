@@ -11,7 +11,7 @@ sudo apt install haproxy
 
 after you install the haproxy , it's the time to config it .
 
-#configuration Part 
+# configuration Part 
 
 so easy in copy the /etc folder in th files folder into / just like below 
 
